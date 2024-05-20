@@ -11,6 +11,12 @@ On his travels, he found some recipes on the walls of the stables he’s visited
 - `Tabantha Wheat` and `Hateno Cheese` will make a `Cheesy Hylian Pizza`
 - `Raw Prime Meat` and `Hylian Rice` will make `Prime Meat and Rice Bowl`
 
+Open the `main.js` module in your code editor and you will see that some code has already been started. Unfortunately, te algorithm is not comprehensive, as if will only cook one meal based off of two ingredients. You need to refactor that algorithm so that it will work for any of the combinations above.
+
+To start you off, we want you to think about the structure of a recipe object - what properties would need to be on it, and what would the value be of each property.
+
+Then update the function so that if two matching ingredients are passed as arguments to the `cook()` function, the matching meal name will be produced.
+
 ## Part 2
 
 Link found some more materials in the Tabantha Frontier, he also stopped in Rito village to buy a few items. Add the following items to his materials array:
