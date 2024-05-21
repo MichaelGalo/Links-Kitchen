@@ -3,10 +3,12 @@
 // data
 
 const myMaterials = [
-  "Hylian Rice",
+  //   "Hylian Rice",
+  "Cane Sugar",
   "Goat Butter",
   "Bird Egg",
-  "Raw Bird Thigh",
+  "Tabantha Wheat",
+  //   "Big Hearty Truffle",
 ];
 
 const materials = [
