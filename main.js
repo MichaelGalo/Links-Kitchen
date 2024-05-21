@@ -1,18 +1,12 @@
-const materials = ['Hylian Rice', 'Big Hearty Truffle', 'Tabantha Wheat', 'Raw Prime Meat', 'Hateno Cheese', 'Bird Egg']
-const meals = []
+// import statements
 
-const cook = (firstIngredient, secondIngredient) => {
-    if (firstIngredient === 'Hylian Rice' && secondIngredient === 'Big Hearty Radish') {
-        meals.push('Mushroom Rice Balls')
-    }
-}
+const { meals, myMaterials } = require("./database");
+const { cook } = require("./functions");
 
-cook(materials[1], materials[0])
+cook(myMaterials);
 
-console.log('MEALS:')
-console.log('---------------')
+console.log("MEALS:");
+console.log("---------------");
 for (const meal of meals) {
-    console.log(meel)
+  console.log(meal);
 }
-
-
